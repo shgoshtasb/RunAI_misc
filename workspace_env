@@ -1,0 +1,3 @@
+data_dir="data_dir"
+code_dir="code_dir"
+project_venv="venv"
