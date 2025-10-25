@@ -15,7 +15,7 @@ runai workspace submit [podname] -i ubuntu --gpu-portion-request .2 --cpu-memory
 4. Setup up kubectl for on the local machine and port-forward
 ```bash 
 runai kc set
-kubectl -n runai-[project]-[name] port-forward pod/[podname]-0-[0...6] 2222:222
+kubectl -n runai-[project]-[name] port-forward pod/[podname]-0-[0...6] 2222:22
 ```
 
 
